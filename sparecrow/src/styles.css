@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar {
+  padding: 12px 24px;
+}
+
+.main {
+  width: 90%;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+
+  color: #333333;
+  margin: 0px auto;
+}
+
+.main > .scarecrow {
+  width: 45%;
+  min-width: 270px;
+
+  object-fit: contain;
+  object-position: center;
+}
+
+.main > .content {
+  width: 45%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.cta {
+  display: block;
+  padding: 8px;
+  color: #fff;
+  background-color: #333333;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer {
+  margin: 8px 0px;
+  font-size: 0.9em;
+  text-align: center;
+  color: #bdbdbd;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+.footer > .username {
+  font-weight: 600;
+  text-decoration: underline;
+}
+.footer > a {
+  color: #bdbdbd;
+  text-decoration: none;
+}
