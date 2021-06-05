@@ -68,7 +68,7 @@ body {
 .division {
     background: #356E91;
     width: 3px;
-    height: 540px;
+    height: 530px;
 }
 
 .organisation {
@@ -76,10 +76,3 @@ body {
     font-weight: 100;
 }
 
-img {
-    position: absolute;
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%);
-    top: 0;
-}
