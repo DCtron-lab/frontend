@@ -119,7 +119,7 @@
 #minute {
     width: 100%;
     height: 100%;
-    animation: none sec 3600s steps(60, end) infinite;
+    animation: none sec 3600s linear infinite;
 }
 
 #minute::after {
