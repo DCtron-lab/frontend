@@ -126,7 +126,7 @@
     content: "";
     width: 8px;
     height: 80px;
-    border-radius: 4px 4px 2px 2px;
+    border-radius: 4px 4px 2px 2px; /*50% */
     background: white;
     position: absolute;
     left: calc(50% + 30px);
