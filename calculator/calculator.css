@@ -119,5 +119,5 @@
     }
     
     .math:active {
-        box-shadow: 1px 1px 2px grey, inset -1px -1px 2px grey;
+        box-shadow: 1px 1px 2px white, inset -1px -1px 2px white;
     }
