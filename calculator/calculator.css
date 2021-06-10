@@ -1,21 +1,57 @@
-.box {
-    width: 300px;
-    margin: 20px auto;
-}
-
-#display {
-    border: none;
-    outline: none;
-    color: black;
-    text-align: right;
-    font-weight: 600;
-    padding: 15px;
-    margin: 30px 0 20px 0;
-    background: transparent;
-    box-shadow: inset 2px 2px 5px grey, inset -5px -5px 10px white
-}
-
-form {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /*body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: #091921;
+}*/
+    
+    body {
+        background-color: rgb(214, 214, 214);
+    }
+    
+    .container {
+        width: 250px;
+        height: 400px;
+        margin: 80px auto;
+        border-radius: 12px;
+        background: rgb(214, 214, 214);
+        box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #ffffff;
+    }
+    
+    .box {
+        width: 205px;
+        margin: 20px auto;
+    }
+    
+    #display {
+        border: none;
+        outline: none;
+        color: black;
+        text-align: right;
+        font-weight: 600;
+        padding: 15px;
+        margin: 30px 0 20px 0;
+        background: transparent;
+        box-shadow: inset 2px 2px 5px grey, inset 2px 2px 5px grey;
+    }
+    /*form {
+        border: none;
+        outline: none;
+        color: black;
+        font-weight: 600;
+        padding: 15px;
+        height: 365px;
+        width: 275px;
+        margin: 30px 0 20px 0;
+        background: transparent;
+    }
+    /* form {
+    position: relative;
     border: none;
     outline: none;
     color: black;
@@ -25,54 +61,63 @@ form {
     padding: 15px;
     margin: 30px 0 20px 0;
     background: transparent;
-    box-shadow: inset 2px 2px 5px grey, inset -5px -5px 10px white
-}
-
-.button {
-    margin: 15px 0 0 5px;
-    width: 42px;
-    height: 42px;
-    border: none;
-    outline: none;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 8px;
-    background: grey;
-    box-shadow: 5px 5px 10px white, -5px -5px 10px white;
-    display: inline-block;
-}
-
-.button:active {
-    box-shadow: 1px 1px 2px grey, inset -1px -1px 2px white;
-}
-
-.clear {
-    background: tomato;
-    color: white;
-    margin: 15px 0 0 5px;
-    width: 42px;
-    height: 42px;
-    border: none;
-    outline: none;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 8px;
-    display: inline-block;
-}
-
-.math {
-    background: black;
-    color: white;
-    margin: 15px 0 0 5px;
-    width: 42px;
-    height: 42px;
-    border: none;
-    outline: none;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 8px;
-    display: inline-block;
-}
+}*/
+    
+    .button {
+        margin: 15px 0 0 5px;
+        width: 42px;
+        height: 42px;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 8px;
+        background: rgb(214, 214, 214);
+        box-shadow: 5px 5px 10px #b6acac, -5px -5px 10px #faf4f4;
+        display: inline-block;
+    }
+    
+    .button:active {
+        box-shadow: 1px 1px 2px grey, inset -1px -1px 2px white;
+        color: white;
+        background: grey;
+    }
+    
+    .clear {
+        background: tomato;
+        color: white;
+        margin: 15px 0 0 5px;
+        width: 42px;
+        height: 42px;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 8px;
+        display: inline-block;
+    }
+    
+    .clear:active {
+        box-shadow: 1px 1px 2px grey, inset -1px -1px 2px grey;
+    }
+    
+    .math {
+        background: black;
+        color: white;
+        margin: 15px 0 0 5px;
+        width: 42px;
+        height: 42px;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 8px;
+        display: inline-block;
+    }
+    
+    .math:active {
+        box-shadow: 1px 1px 2px grey, inset -1px -1px 2px grey;
+    }
