@@ -1,0 +1,104 @@
+      * {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+      }
+      
+      body {
+          padding: 50px;
+          background-color: #232526;
+      }
+      
+      .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: black;
+          /* padding: 27px; */
+          margin: 135px;
+          height: 46vh;
+          width: 57vw;
+      }
+      
+      .box {
+          display: flex;
+          justify-content: left;
+          align-items: top;
+          background-color: #2f3132;
+          border-radius: 8px;
+          /* padding: 143px; */
+          width: 53vw;
+          height: 40vh;
+      }
+      
+      form {
+          display: flex;
+          justify-content: flex-start;
+          flex-direction: column;
+          margin-left: 24px;
+          margin-top: 23px;
+      }
+      
+      textarea {
+          border-radius: 6px;
+          font-size: 3vh;
+          resize: none;
+          border-color: transparent;
+          background-color: transparent;
+          color: white;
+          width: 46vw;
+          height: 23vh;
+          font-size: 2vh;
+          margin: 6px 0px;
+          padding: 12px;
+      }
+      
+      input[type="text" i] {
+          font-size: 3vh;
+          border-radius: 6px;
+          border-color: transparent;
+          color: white;
+          margin-left: 10px;
+          background-color: transparent;
+      }
+      
+      .dot {
+          height: 12px;
+          width: 12px;
+          margin: 11px 2.5px;
+          /* background-color: #bbb; */
+          border-radius: 50%;
+          align-self: flex-end;
+          position: relative;
+          display: inline-block;
+      }
+      
+      .btn {
+          display: inline-block;
+          color: white;
+          background: #1976d2;
+          padding: 1.7vh 3vw;
+          font-size: 1.5vw;
+          width: 12vw;
+          height: 7vh;
+          /* border: 2px solid white; */
+          border-radius: 7px;
+          cursor: pointer;
+          align-self: flex-end;
+      }
+      
+      #dot1.dot {
+          background-color: plum;
+      }
+      
+      #dot2.dot {
+          background-color: orange;
+      }
+      
+      #dot3.dot {
+          background-color: #8bc34a;
+      }
+      
+      #dot4.dot {
+          background-color: yellow;
+      }
