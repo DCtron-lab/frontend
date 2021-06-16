@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/home/vaibhav/Desktop/Netflixbg2.jpg")
+}
+
+.logo {
+	display: flex;
+    color: #ff0505;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 38px;
+    margin: 2px;
+    padding: 2px;
+}
+
+.header {
+	display: flex;
+    font-size: 3.125rem;
+    font-family: 'Bebas Neue', cursive;
+    color: whitesmoke;
+    height:100%;
+    width:100%;
+    margin-top: 100px;
+    justify-content: center;
+    letter-spacing: 3px;
+}
+.info{
+	display: flex;
+	color: whitesmoke;
+	font-size: 1.50rem;
+	font-family: sans-serif;
+	justify-content: center;
+}
+.info2{
+		display: flex;
+	color: whitesmoke;
+	font-size: 1.20rem;
+	font-family: sans-serif;
+	justify-content: center;
+	margin-top: 20px;
+}
+.form{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px; 
+}
+.btn-dark{
+background-color:#ff0505;
+}
+.btn-danger{
+	background-color:#ff0505;
+	margin-left: auto; 
+}
