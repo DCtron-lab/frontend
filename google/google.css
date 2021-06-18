@@ -23,10 +23,6 @@
                 position: relative;
             }
             
-            .search :focus {
-                box-shadow: inset 0 0 1px 1px grey;
-            }
-            
             .btn {
                 align-items: center;
                 justify-content: center;
@@ -54,6 +50,14 @@
                 z-index: 2;
             }
             
+            input[type="text"]:hover {
+                box-shadow: inset 0 0 1px 1px #E8E8E8;
+            }
+            
+            input[type="text"]:active {
+                box-shadow: inset 0 0 1px 1px #C8C8C8;
+            }
+            
             input[type="button"] {
                 background-color: #f8f9fa;
                 border: 1px solid #f8f9fa;
@@ -71,11 +75,11 @@
             }
             
             input[type="button"]:hover {
-                border: 1px solid black;
+                box-shadow: inset 0 0 1px 1px #E8E8E8;
             }
             
             input[type="button"]:active {
-                box-shadow: inset 0 0 1px 1px grey;
+                box-shadow: inset 0 0 1px 1px #C8C8C8;
             }
             
             #g1 {
