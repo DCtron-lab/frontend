@@ -1,111 +1,152 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.contain {
-    width: 100%;
-    height: 95vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.search {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.search :focus {
-    box-shadow: inset 0 0 1px 1px grey;
-}
-
-.btn {
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    bottom: 36px;
-    border: transparent;
-    outline: transparent;
-}
-
-input[type="text"] {
-    height: 40px;
-    width: 166%;
-    font-size: 17px;
-    padding: 5px;
-    position: relative;
-    bottom: 57px;
-    border-radius: 25px;
-    outline: none;
-    bottom: 57px;
-    border-radius: 25px;
-    outline: none;
-    border: 1px solid #dfe1e5;
-    background: #fff;
-    box-shadow: none;
-    z-index: 2;
-}
-
-input[type="button"] {
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    border-radius: 4px;
-    color: #3c4043;
-    font-family: arial, sans-serif;
-    font-size: 14px;
-    margin: 11px 4px;
-    padding: 0 16px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-}
-
-input[type="button"]:hover {
-    border: 1px solid black;
-}
-
-input[type="button"]:active {
-    box-shadow: inset 0 0 1px 1px grey;
-}
-
-#g1 {
-    font-family: "Baloo Tammudu 2", sans-serif;
-    font-size: 100px;
-    color: #4285f4;
-}
-
-#g1,
-#g2 {
-    font-family: "Baloo Tammudu 2", sans-serif;
-    font-size: 100px;
-    color: #4285f4;
-}
-
-#o1,
-#e {
-    font-family: "Baloo Tammudu 2", sans-serif;
-    font-size: 100px;
-    color: #ea4335;
-}
-
-#o2 {
-    font-family: "Baloo Tammudu 2", sans-serif;
-    font-size: 100px;
-    color: #fbbc05;
-}
-
-#l {
-    font-family: "Baloo Tammudu 2", sans-serif;
-    font-size: 100px;
-    color: #34a853;
-}
+            @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            .contain {
+                width: 100%;
+                height: 95vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+            }
+            
+            .search {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+            }
+            
+            .search :focus {
+                box-shadow: inset 0 0 1px 1px grey;
+            }
+            
+            .btn {
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                bottom: 36px;
+                border: transparent;
+                outline: transparent;
+            }
+            
+            input[type="text"] {
+                height: 40px;
+                width: 166%;
+                font-size: 17px;
+                padding: 5px;
+                position: relative;
+                bottom: 57px;
+                border-radius: 25px;
+                outline: none;
+                bottom: 57px;
+                border-radius: 25px;
+                outline: none;
+                border: 1px solid #dfe1e5;
+                background: #fff;
+                box-shadow: none;
+                z-index: 2;
+            }
+            
+            input[type="button"] {
+                background-color: #f8f9fa;
+                border: 1px solid #f8f9fa;
+                border-radius: 4px;
+                color: #3c4043;
+                font-family: arial, sans-serif;
+                font-size: 14px;
+                margin: 11px 4px;
+                padding: 0 16px;
+                line-height: 27px;
+                height: 36px;
+                min-width: 54px;
+                text-align: center;
+                cursor: pointer;
+            }
+            
+            input[type="button"]:hover {
+                border: 1px solid black;
+            }
+            
+            input[type="button"]:active {
+                box-shadow: inset 0 0 1px 1px grey;
+            }
+            
+            #g1 {
+                font-family: "Baloo Tammudu 2", sans-serif;
+                font-size: 100px;
+                color: #4285f4;
+            }
+            
+            #g1,
+            #g2 {
+                font-family: "Baloo Tammudu 2", sans-serif;
+                font-size: 100px;
+                color: #4285f4;
+            }
+            
+            #o1,
+            #e {
+                font-family: "Baloo Tammudu 2", sans-serif;
+                font-size: 100px;
+                color: #ea4335;
+            }
+            
+            #o2 {
+                font-family: "Baloo Tammudu 2", sans-serif;
+                font-size: 100px;
+                color: #fbbc05;
+            }
+            
+            #l {
+                font-family: "Baloo Tammudu 2", sans-serif;
+                font-size: 100px;
+                color: #34a853;
+            }
+            
+            .languages {
+                flex-wrap: wrap;
+                display: inline-flex;
+                text-align: center;
+                font-size: small;
+                margin: -10px 0 20px 0;
+                line-height: 28px;
+            }
+            
+            .language-type a {
+                color: #1a2bca;
+                padding: 0 5px;
+                text-decoration: none;
+            }
+            
+            .g-footer {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                background-color: #f1f1f1;
+                text-transform: capitalize;
+            }
+            
+            .g-footer a {
+                font-size: 14px;
+                line-height: 40px;
+                padding-left: 27px;
+                text-decoration: none;
+                color: rgba(0, 0, 0, 0.54);
+            }
+            
+            .footer-down {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            
+            .footer-down-right {
+                padding-right: 27px;
+            }
