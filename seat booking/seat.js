@@ -6,7 +6,7 @@ const booked = document.querySelector(".booked");
 const remaining = document.querySelector(".remaining");
 
 var bcount = 0;
-var rcount = 100; // here add the number of seats you want
+var rcount = 50; // here add the number of seats you want
 
 const number = rcount;
 
