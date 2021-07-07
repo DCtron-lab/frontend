@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* background: #efffff; */
+}
+
+h1 {
+    /* width: 100%; */
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.todo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.todo-text input {
+    outline: none;
+    height: 35px;
+    width: 510px;
+    padding: 0 10px;
+}
+
+.todo-text .add-btn {
+    background: none;
+    outline: none;
+    height: 35px;
+    width: 90px;
+    padding: 0 10px;
+    color: black;
+    background: rgb(53, 235, 235);
+    transition: 0.45s;
+    font-weight: bold;
+}
+
+.todo-text .add-btn:hover {
+    cursor: pointer;
+    background: black;
+    color: rgb(53, 235, 235);
+}
+
+.todos {
+    width: 100%;
+    margin-top: 50px;
+    list-style-type: none;
+    text-align: left;
+}
+
+.todos li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    border: 1px solid black;
+    padding-left: 10px;
+    color: #315a5c;
+    font-weight: bold;
+}
+
+.todos li:nth-of-type(4n) {
+    background: rgb(167, 236, 245);
+}
+
+.todos li:nth-of-type(4n+1) {
+    background: rgb(233, 158, 128);
+}
+
+.todos li:nth-of-type(4n+2) {
+    background: rgb(163, 235, 48);
+}
+
+.todos li:nth-of-type(4n+3) {
+    background: rgb(211, 138, 240);
+}
+
+.todos li .icons button {
+    padding-right: 8px;
+    background: none;
+    outline: none;
+    border: none;
+}
