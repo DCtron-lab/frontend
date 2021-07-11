@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(to right, #ee79f8, #fa6565);
+    background: linear-gradient(to right, #ee79f8, #fa6565);
+}
+
+.card {
+    height: 400px;
+    width: 400px;
+    border: 10px solid #f3f3f3;
+    box-shadow: -5px 4px 13px 0px #f3f3f3b5;
+}
+
+.image img {
+    width: 100%;
+    height: 381px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
