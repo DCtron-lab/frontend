@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #000303;   */
+    background: -webkit-linear-gradient(to right, #f86f76, #65fac1);
+    background: linear-gradient(to right, #f86f76, #65fac1);
+}
+
+.chessboard {
+    height: 500px;
+    width: 500px;
+    border: 5px solid black;
+    box-shadow: -7px 7px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.row {
+    width: 100%;
+    height: 12.5%;
+    display: flex;
+}
+
+.block {
+    height: 65px;
+    width: 75px;
+}
+
+.row:nth-child(even) .block:nth-of-type(even),
+.row:nth-child(odd) .block:nth-of-type(odd) {
+    background: rgba(0, 0, 0, 0.616);
+}
+
+.row:nth-child(even) .block:nth-of-type(odd),
+.row:nth-child(odd) .block:nth-of-type(even) {
+    background: rgba(255, 255, 255, 0.438);
+}
