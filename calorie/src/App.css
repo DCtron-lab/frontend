@@ -1,0 +1,37 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    height: 90vh;
+    width: 100vw;
+}
+
+.instruction {
+    margin: 0 auto;
+    width: 60vh;
+}
+
+li {
+    display: flow-root;
+}
+
+.container {
+    overflow: auto;
+    height: 70vh;
+    width: 500px;
+    margin: auto;
+    border: 2px solid black;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.card {
+    border: 1px solid blueviolet;
+    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    color: white;
+    width: 60%;
+    margin: 10px auto;
+    text-align: left;
+    border-radius: 0 30px 0 30px;
+    padding: 0 20px;
+    box-shadow: 3px 3px 5px black;
+}
