@@ -42,8 +42,8 @@ const Mains = () => {
         Card title = "Fries"
         Calorie = "120" / >
         <
-        /div> <
-        /div>
+        /div> < /
+        div >
     );
 }
 
@@ -55,8 +55,8 @@ const Card = ({ title, Calorie }) => {
         hr / >
         <
         p > you have consumed { Calorie } { " " }
-        calorie today < /p> <
-        /div>
+        calorie today < /p> < /
+        div >
     );
 }
 export default function App() {
