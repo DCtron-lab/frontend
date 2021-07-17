@@ -1,29 +1,33 @@
-import List from "./components/calorie";
 import "./App.css";
+import GetInstructions from './components/Instructions';
+import CalorieCard from './components/CalorieCard';
+import { useState } from 'react';
+const instructions = [
+    'build a container',
+    'create a seperate function and use it as a component',
+    'pass props "calory and food" and call it to main component'
+];
 
-function App() {
-    const data = [
-        { name: "Pizza", cal: 150 },
-        { name: "Burger", cal: 135 },
-        { name: "Sandwich", cal: 100 },
-        { name: "Samosa", cal: 95 },
-        { name: "Momos", cal: 105 },
-        { name: "Fries", cal: 120 },
-    ];
+const menuItems = [
+    ['Pizza', 150],
+    ['Burger', 135],
+    ['Coke', 500],
+    ['Sandwich', 100],
+    ['Samosa', 95],
+    ['Momos', 105],
+    ['Fries', 120]
+];
+
+export default function App() {
+    const [menu, setMenu] = useState(menuItems);
     return ( <
-        div className = "container" >
+        div className = "App" >
         <
-        div className = "calorie-list" >
-        <
-        h1 className = "list" > Calorie - List < /h1> <
-        div className = "cal-list" >
-        <
-        List data = { data }
+        GetInstructions inst = { instructions }
+        /> <
+        CalorieCard menu = { menu }
+        setCards = { setMenu }
         /> < /
-        div > <
-        /div> < /
         div >
     );
 }
-
-export default App;

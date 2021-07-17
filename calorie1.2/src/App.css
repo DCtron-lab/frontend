@@ -1,31 +1,38 @@
+* {
+    color: whitesmoke;
+}
+
 body {
     background: black;
-    color: white;
 }
 
-.container {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: auto;
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    height: 90vh;
+    width: 100vw;
 }
 
-.list {
-    margin-top: 20px;
+.instruction {
+    margin: 0 auto;
+    width: 60vh;
     text-align: center;
 }
 
-.cal-list {
-    margin-top: 20px;
-    width: 600px;
-    height: 500px;
-    overflow-y: auto;
-    box-shadow: 2px 3px 9px -1px rgb(5, 4, 5);
-    background: #0e0101;
+ul {
+    text-align: left;
 }
 
-.cal-list .cards {
+.CardContainer {
+    overflow: auto;
+    height: 70vh;
+    width: 500px;
+    margin: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.card {
     border: 1px solid blueviolet;
     background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     color: white;
@@ -37,8 +44,39 @@ body {
     box-shadow: 3px 3px 5px black;
 }
 
-.cal-list .cards:hover {
-    background-color: rgba(17, 114, 158, 0.493);
+.card h2 {
+    border-bottom: 2px solid white;
+    width: 90%;
+}
+
+.noItem {
+    margin: 1em;
+    font-size: 2em;
+}
+
+.card button {
+    display: block;
+    position: relative;
+    float: right;
+    background: rgb(247, 68, 36);
+    padding: 10px;
+    color: white;
+    border: white;
+    border-radius: 10px 0 10px 0;
+}
+
+.card button:hover {
+    /* background: #C850C0; */
+    color: black;
+    cursor: pointer;
+    box-shadow: inset 3px 2px #FFCC70;
+}
+
+.cardCount {
+    background: black;
+    color: red;
+    padding: 10px;
+    border-radius: 100px;
 }
 
 ::-webkit-scrollbar {
